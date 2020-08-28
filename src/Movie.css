@@ -1,0 +1,36 @@
+.movies__items .movies__item {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border-top: 5px solid;
+}
+
+.movies__items .movies__item__title {
+    font-size: 25px;
+}
+
+.movies__item .movies__item__image {
+    width: 100%;
+    height: auto;
+}
+
+.movies__item__data {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies__item__genres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies__item__genres .movies__item__genres__genre {
+    margin-right: 35px;
+    padding-top: 5px;
+}
+
+.movies__item__summary {
+    width: 100%;
+    margin-top: 0;
+}
